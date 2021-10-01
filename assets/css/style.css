@@ -16,7 +16,7 @@ body {
 
 .bg-principal {
     height: 100vh;
-    background-image: url(../img/estela.jpg);
+    background-image: url(../img/estela.webp);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ body {
 
 .bg-imagen {
     position: relative;
-    background-image: url(../img/Estela-background-2.jpeg);
+    background-image: url(../img/Estela-background-2.webp);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -382,9 +382,6 @@ body {
     padding: .8rem 0;
 }
 
-.carousel-item {
-    height: 100vh;
-}
 
 .carousel-control-next, .carousel-control-prev {
     width: 5%;
@@ -433,9 +430,6 @@ body {
 @media (max-width: 768px) {
     .slider-titulo {
         padding: 2rem 0;
-    }
-    .carousel-item {
-        height: initial;
     }
     .carousel-control-next, .carousel-control-prev {
         width: initial;
